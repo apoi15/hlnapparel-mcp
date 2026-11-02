@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hlnapparel/clothing-manufacturer",
+  "title": "HLN Apparel — clothing manufacturer",
+  "description": "China clothing factory: categories, MOQ, lead times, US HS duty, GSM, buyer-confirmed quote requests",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.hlnapparel.com",
+  "icons": [
+    {
+      "src": "https://www.hlnapparel.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hlnapparel.com/api/mcp"
+    }
+  ]
+}
